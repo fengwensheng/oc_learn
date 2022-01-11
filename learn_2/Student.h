@@ -7,10 +7,18 @@
 
 #import <Foundation/Foundation.h>
 
-NS_ASSUME_NONNULL_BEGIN
-
 @interface Student : NSObject
 
-@end
+//instance method, no return, no parameter
+-(void)sayHi;
 
-NS_ASSUME_NONNULL_END
+//class method
++(void)greet;
+
+//one para
+-(void)sayHello: (NSString *)name;
+
+//has return
+-(BOOL)isMale:(NSString*)gender;
+
+@end

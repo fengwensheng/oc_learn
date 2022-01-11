@@ -6,11 +6,20 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Person.h"
 
 int main(int argc, const char * argv[]) {
-    @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
-    }
+    
+    Person *person = [[Person alloc] init];
+    //use default init
+//    Person *person = [Person new];
+    
+    person -> name = @"Vincent Feng";
+    person -> age = 26;
+    
+    NSString *name = person -> name;
+    int age = person -> age;
+    NSLog(@"name=%@,age=%d",name,age);
+    
     return 0;
 }
