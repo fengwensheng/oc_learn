@@ -14,6 +14,7 @@
 		2A4E577C278DE23E003013BB /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A4E577B278DE23E003013BB /* Student.m */; };
 		2A4E5784278DEDE5003013BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A4E5783278DEDE5003013BB /* main.m */; };
 		2A4E578A278DEE0C003013BB /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A4E5789278DEE0C003013BB /* Calculator.m */; };
+		2A4E578D278DF2F7003013BB /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A4E578C278DF2F7003013BB /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -70,6 +71,8 @@
 		2A4E5783278DEDE5003013BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2A4E5788278DEE0C003013BB /* Calculator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
 		2A4E5789278DEE0C003013BB /* Calculator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
+		2A4E578B278DF2F7003013BB /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		2A4E578C278DF2F7003013BB /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +163,8 @@
 				2A4E5783278DEDE5003013BB /* main.m */,
 				2A4E5788278DEE0C003013BB /* Calculator.h */,
 				2A4E5789278DEE0C003013BB /* Calculator.m */,
+				2A4E578B278DF2F7003013BB /* Person.h */,
+				2A4E578C278DF2F7003013BB /* Person.m */,
 			);
 			path = learn_3;
 			sourceTree = "<group>";
@@ -310,6 +315,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A4E578D278DF2F7003013BB /* Person.m in Sources */,
 				2A4E5784278DEDE5003013BB /* main.m in Sources */,
 				2A4E578A278DEE0C003013BB /* Calculator.m in Sources */,
 			);
